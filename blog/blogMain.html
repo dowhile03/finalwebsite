@@ -66,20 +66,14 @@
                         Reviews
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../reviews\mobile.html">Mobile review</a>
-                        <a class="dropdown-item" href="../reviews\laptop.html">Laptop review</a>
+                        <a class="dropdown-item" href="../reviews/mobile.html">Mobile review</a>
+                        <a class="dropdown-item" href="../reviews/laptop.html">Laptop review</a>
                         
                     </div>
                 </li>
 
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button type="button" class="btn btn-outline-warning" id="login_btn" data-toggle="modal"
-                    data-target="#exampleModal" style="display: initial;">
-                    LogIn
-                </button>
-
-                <!-- Modal -->
+                            <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -171,7 +165,22 @@
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="vr.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+                            <div class="card-body">
+                                <h3 class="card-text">Blog on VR (Virtual Reality)</h3>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a href="virtual-reality.html">View</a></button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="container-fluid">
                         <footer class="my-5 pt-5 text-muted text-center text-small" style="align-items:center;">
                             <ul class="list-inline">
@@ -206,29 +215,7 @@
                         crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
                     <!-- Submit the Form to Google Using "AJAX" -->
-                    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-
-                    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase.js"></script>
-
-
-                    <script>
-                        var firebaseConfig = {
-                            apiKey: "AIzaSyB505g7ENsCJpOu-9wis4XaWp813em6XMA",
-                            authDomain: "authlogin-2ec70.firebaseapp.com",
-                            databaseURL: "https://authlogin-2ec70.firebaseio.com",
-                            projectId: "authlogin-2ec70",
-                            storageBucket: "authlogin-2ec70.appspot.com",
-                            messagingSenderId: "629150258327",
-                            appId: "1:629150258327:web:b7c46801bafa10fed505d2",
-                            measurementId: "G-15MKJ7XL1B"
-                        };
-                        // Initialize Firebase
-                        firebase.initializeApp(firebaseConfig);
-                        firebase.analytics();
-                    </script>
-
-                    <script src="./loginGoogle/loginMe.js"></script>
-                    <!-- END -->
+                   
 </body>
 
 </html>
