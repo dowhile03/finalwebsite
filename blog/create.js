@@ -61,23 +61,21 @@ firebase.auth().onAuthStateChanged(function(user){
       firebase.auth().signOut();
     }
 
-    $("#file").on("change", function(event) {
-        selectedFile = event.target.files[0];
-    })
-
     function submitFile() {
-        var filename = selectedFile.name;
-        var storageRef = firebase.storage().ref("/blogFiles/" + filename);
-        var uploadTask = storageRef.put(selectedFile);
+      var submitBtn = document.getElementById('file');
 
-        uploadTask.on("state_changed",function(snapshot){
-
-        }, function(error) {
-
-        }, function() {
-             var downloadURL = uploadTask.snapshot.downloadURL;
-             console.log(downloadURL);
-
-        });
-
+      submitBtn.addEventListener('change',function(e){
+      var file = e.target.files[0];
+      
+      var storageRef = firebase.storage().ref('BlogPosts/' + file.name);
+      
+      var task = storageRef.put(file);
+      
+      });
+      
     }
+
+
+  
+  
+
