@@ -72,45 +72,6 @@
                 </li>
 
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button type="button" class="btn btn-outline-warning" id="login_btn" data-toggle="modal"
-                    data-target="#exampleModal" style="display: initial;">
-                    LogIn
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Login With Security of Google</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                This is an Easy and one-click Login . This login is Authenticated by the security of
-                                Google.
-                                <br> Welcome to the Journey <br>
-                                -Teamdowhile
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-outline-danger" data-dismiss="modal"
-                                    onclick="loginMe()">Login Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <p id="helloUser" style="color: white; font-weight: bold;"></p>
-
-
-                <button type="button" id="logout_btn" class="btn btn-outline-info" onClick="logoutMe()"
-                    style="display: none;">Logout</button>
-
-
-            </form>
         </div>
     </nav>
 
@@ -185,7 +146,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                    
+                    </div>  
+                    <div class="container-fluid" style="margin-top: 5vw;">
+                    <a href="../blog/createblog.html" style="text-decoration: none;">
+                        <button class="btn btn-block btn-outline-warning">Submit Your Blog</button></a>
+                    </div>                  
                     <div class="container-fluid">
                         <footer class="my-5 pt-5 text-muted text-center text-small" style="align-items:center;">
                             <ul class="list-inline">
@@ -218,6 +183,5 @@
                         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
                         crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-                
                 </body>
 </html>
