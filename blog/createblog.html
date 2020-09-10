@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body style="background-image: url(../quiz/photo.jpg);">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="../index.html">Teamdowhile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -132,13 +132,14 @@
       
        
             <div class="form-group">
+                <progress value="0" max="100" id="uploader">0</progress> <br>
               <label id="fileUpload" for="exampleFormControlFile1">Attach your file</label>
               <input type="file" class="form-control-file" id="file">
             </div>
          
 
-      <button class="btn btn-outline-danger" id="fileUpload" style="margin: 5vw;" onclick="submitFile()" >Submit My Blog</button>
-<p id="note" >NOTE :- You Must Login Before You Submit your blog To Teamdowhile</p>
+      <button class="btn btn-outline-danger" id="fileUploadBtn" style="margin: 5vw;" onclick="submitFile()" >Submit My Blog</button>
+<p id="note" ><b>NOTE :- You Must Login Before You Submit your blog To Teamdowhile</b></p>
       </form>
 
 
