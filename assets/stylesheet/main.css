@@ -1,0 +1,176 @@
+/*
+===============================================================
+ 
+RESET
+
+===============================================================
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+==============================================================
+
+Grid
+
+==============================================================
+*/
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.container
+{
+	margin:0 auto;
+    width:960px;
+    line-height: 45px;
+}
+
+.container{
+	padding-left:40px;
+	padding-right:40px;
+}
+/*
+===========================================================
+
+headings
+
+=========================================================
+*/
+h1,h3,h4{
+    margin-top:20px;
+    
+    background-color:rgb(54, 89, 160);
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    color:rgb(179, 173, 173)
+}
+h1{
+    font-size:50px;
+    font-family: sans-serif;
+}
+h3{
+    font-size:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+h4{
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    background-color:rgb(54, 89, 160);
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+/*
+==================================================
+
+listing
+
+==================================================
+*/
+.list{
+    list-style-type:circle;
+}
+
+/*
+=====================================================
+
+Line spacing & fonts
+
+======================================================
+*/
+
+body{
+    line-height: 25px;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dist{
+    margin-bottom:40px;
+}
+
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:5px;
+    margin-bottom: 15px;
+    background-color: silver;
+}
+figure{
+    background-color: rgb(202, 172, 172)
+
+}
+
+.name{
+    background:rgb(54, 89, 160);
+    padding-top:30px;
+    vertical-align:center;
+    padding-left:30px;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 1200px) {
+    .container
+{
+	margin:0 auto;
+    width:400px;
+    
+    
+}
+body{
+    line-height: 50px;
+}
+}
