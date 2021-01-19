@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0; 
+    
   }
-  
+
   .navigation {
     margin-top: 25px;
     font-family: var(--font1);
