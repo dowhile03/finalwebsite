@@ -18,22 +18,9 @@ let navtest = document.getElementById("navtest").innerHTML +=`
         <li class="nav-item">
             <a class="nav-link text-dark mr-3" href="../contactus/contact.html">Contact Us</a>
         </li>
-      
-        <li class="nav-item">
-            <a class="nav-link text-dark mr-3"
-                href="../quiz/quiz.html">Quizzes</a>
-        </li>
-
         <li class="nav-item"> <a class="nav-link text-dark btn btn-light mr-3" href="../blog/blogMain.html">Blog</a>
         </li>
-        <li class="nav-item dropdown text-dark">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Videos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-dark" href="../knowledgebooster/Knowledge.html">Knowledge Booster</a>
-            </div>
+        <li class="nav-item"> <a class="nav-link text-dark btn  mr-3" href="../technews/technews.html">Tech News</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
