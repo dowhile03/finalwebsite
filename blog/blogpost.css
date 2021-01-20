@@ -1,8 +1,15 @@
 * {
     margin: 0;
     padding: 0; 
-    
+      
   }
+  
+  #navtest{
+    top: 0;
+    position: sticky;
+    z-index: 1;
+  }
+  
 
   .navigation {
     margin-top: 25px;

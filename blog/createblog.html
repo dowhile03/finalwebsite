@@ -21,8 +21,8 @@
 
 </head>
 
-<body style="background-image: url(../quiz/photo.jpg);">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body style="background-image: url(../assets/images/bg.png);">
+    <nav class="navbar navbar-expand-lg" style="background-image: url(../assets/images/bg.png);background-size: cover; background-repeat: no-repeat;  box-shadow: 1px 5px 5px 1px black;">
         <a class="navbar-brand" href="../index.html">Teamdowhile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,47 +32,45 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link mr-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link mr-3 text-dark" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-3" href="../aboutus/about.html">About us</a>
+                    <a class="nav-link mr-3 text-dark" href="../aboutus/about.html">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-3 " href="../contactus/contact.html">Contact Us</a>
+                    <a class="nav-link mr-3 text-dark " href="../contactus/contact.html">Contact Us</a>
                 </li>
 
                
                 <li class="nav-item">
-                    <a class="nav-link  mr-3" href="../quiz/quiz.html">Quizzes</a>
+                    <a class="nav-link text-dark mr-3" href="../quiz/quiz.html">Quizzes</a>
                 </li>
-                <li class="nav-item"> <a class="nav-link mr-3 active" href="../blog/blogMain.html">Blog</a>
+                <li class="nav-item"> <a class="nav-link mr-3 active text-dark" href="../blog/blogMain.html">Blog</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Videos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../htmlcourse/course.html">HTML</a>
-                        <a class="dropdown-item" href="../pythoncourse/Python.html">Python</a>
-                        <a class="dropdown-item" href="../javacourse/java.html">Java</a>
-                        <a class="dropdown-item" href="../knowledgebooster/Knowledge.html">Knowledge Booster</a>
+
+                        <a class="dropdown-item text-dark" href="../knowledgebooster/Knowledge.html">Knowledge Booster</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Reviews
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../reviews\mobile.html">Mobile review</a>
-                        <a class="dropdown-item" href="../reviews\laptop.html">Laptop review</a>
+                        <a class="dropdown-item text-dark" href="../reviews\mobile.html">Mobile review</a>
+                        <a class="dropdown-item text-dark" href="../reviews\laptop.html">Laptop review</a>
                         
                     </div>
                 </li>
 
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline my-2 my-lg-0 card">
                 <button type="button" class="btn btn-outline-warning" id="login_btn" data-toggle="modal"
                     data-target="#exampleModal">
                     LogIn
@@ -116,7 +114,7 @@
 
 
 
-    <form style="padding-left: 10vw; padding-right: 10vw;padding-top: 5vw;">
+    <form class="card" style="padding-left: 10vw; padding-right: 10vw;padding-top: 5vw; margin: 6rem;">
         <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email"  class="form-control" id="exampleFormControlInput1" placeholder="Enter Valid Email-Address">
