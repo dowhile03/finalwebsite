@@ -1,6 +1,6 @@
 let navtest = document.getElementById("navtest").innerHTML +=`
     <nav class="navbar navbar-expand-lg" style="box-shadow:3px 3px 3px 3px; background:url(../bg.png);   ">
-<a class="navbar-brand" href="index.html"><img src="./images/frontpageimages/LOGO.jpg" height="50rem" width="50rem" style = "box-shadow:1px 1px 1px 1px black";></a>
+<a class="navbar-brand" href="index.html"><img src="../images/frontpageimages/LOGO.jpg" height="50rem" width="50rem" style = "box-shadow:1px 1px 1px 1px black";></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@ let navtest = document.getElementById("navtest").innerHTML +=`
         </li>
         <li class="nav-item"> <a class="nav-link text-dark btn btn-light mr-3" href="../blog/blogMain.html">Blog</a>
         </li>
-        <li class="nav-item"> <a class="nav-link text-dark btn  mr-3" href="../technews/technews.html">Tech News</a>
+        <li class="nav-item"> <a class="nav-link text-dark  mr-3" href="../technews/technews.html">Tech News</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"

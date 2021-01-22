@@ -39,22 +39,7 @@ hr{
     margin: 0 auto;
 }
 
-/* header */
 
-.top-head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    background: #252525;
-    color: #fff;
-    padding: 20px 30px;
-}
-
-.top-head .fas{
-    font-size: 2rem;
-    cursor: pointer;
-}
 
 /******* js related styling *****/
 
@@ -72,29 +57,7 @@ hr{
     height: auto;
 }
 
-/********************/
 
-.nav-bar ul li{
-    text-align: center;
-    display: block;
-    padding: 15px 0;
-    transition: all 1s ease-in-out;
-}
-
-.nav-bar ul li:hover{
-    background: #0e0e0e;
-}
-
-.nav-bar ul li a{
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.nav-bar ul li a:hover{
-    text-decoration: underline;
-}
-
-/* social -icons */
 
 .social-icons{
     display: none;
@@ -140,7 +103,7 @@ hr{
 }
 
 .banner-main-content button:hover{
-    background: #fff;
+    background: black;
 }
 
 .banner-main-content button:hover a{
@@ -193,25 +156,25 @@ hr{
     right: 20px;
     padding: 10px 20px;
     line-height: 1.3;
-    color: #f3f3f3;
+    color: grey;
 }
 
 .hot-topic h2{
     padding: 10px 0;
     font-size: 18px;
-    text-shadow: 0 0 2px #000;
+    text-shadow: 0 0 1px #000;
 }
 
 .hot-topic h3{
     padding: 10px 0;
     font-size: 16px;
-    text-shadow: 0 0 2px #000;
+    text-shadow: 0 0 1px #000;
 }
 
 .hot-topic p{
     padding: 10px 0;
     font-size: 15px;
-    text-shadow: 0 0 2px #000;
+    text-shadow: 0 0 1px #000;
     padding: 12px 10px;
 }
 
@@ -339,7 +302,7 @@ main a:hover{
 /****** footer *****/
 
 footer{
-    background: #252525;
+    background: white;
     color: #f3f3f3;
     padding: 30px;
 }
@@ -366,7 +329,7 @@ footer > p{
 
 .footer-right i{
     font-size: 1.8rem;
-    color: #808080;
+    color: green;
 }
 
 .footer-right input{
@@ -374,7 +337,7 @@ footer > p{
     border: none;
     background: transparent;
     outline: none;
-    color: #808080;
+    color: green;
     padding-right: 10px;
     width: 100%;
 }
