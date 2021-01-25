@@ -1,0 +1,25 @@
+.para1 {
+   text-align: center;
+}
+
+.image1  {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   padding: 4em;
+   height: auto;
+   /* width: 100%; */
+}
+
+#backdesign{
+   background: url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    background-size: 65%;
+}
+
+.container {
+   margin: 0 5em;
+   padding: 0 auto;
+}

@@ -1,386 +1,599 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" type="html/css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" type="html/css" rel="stylesheet">
-   <script data-ad-client="ca-pub-3298465686149880" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Teamdowhile</title>
 
-    <title>teamdowhile</title>
-    <link rel="icon" href="./images/frontpageImages/mages.png" type="image/x-icon">
-</head>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css" />
 
-<body style="background-image: url(..assets/images/bg.png)">
-  
-    <nav id="navtest" class="navbar navbar-expand-lg navbar-light bg-dark "style="background-image: url(../bg.png); box-shadow:1px 5px 5px 1px black">
-        <a class="navbar-brand" href="index.html"><img src="./images/frontpageImages/LOGO.jpg" height="50rem" width="50rem"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <style>
-            #navtest{
-        top: 0;
-        position: sticky;
-        z-index: 2;
-      }
-        </style>
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link mr-3" href="index.html">Home <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-3" href="./aboutus/about.html">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mr-3" href="./contactus/contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link mr-3" href="./blog/blogMain.html">Blog</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link mr-3" href="./technews/technews.html">Tech News</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Reviews
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./reviews/mobile.html">Mobile review</a>
-                        <a class="dropdown-item" href="./reviews/laptop.html">Laptop review</a>
-                        
-                    </div>
-                </li>
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css" />
 
-            </ul>
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css" />
+  </head>
+
+  <body>
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+      <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="#" class="text-gray">Teamdowhile</a>
         </div>
-    </nav>
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/frontpageImages/55.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Welcome to Programming World with Teamdowhile</h2>
-                    <p> Stay Connected and we will make it possible with Tech</p>
-                    <button type="button" class="btn btn-primary"><a href="./aboutus/about.html"
-                            style="text-decoration: none; color: white;">About us / Mission / Vision</a></button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./images/frontpageImages/44.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Join the Community of Programmers.</h2>
-                    <p>Login with our Website and become the member and Give a kickstart to your Journey.</p>
-                    <button type="button" class="btn btn-secondary"><a href="./aboutus/about.html"
-                            style="text-decoration: none; color: white;"> About us / Mission / Vision</a></button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./images/frontpageImages/22.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Join the High Quality Courses.</h2>
-                    <p>Practise Coding and give Quizzes , read the doc.</p>
-
-                    <button type="button" class="btn btn-success"><a href="./aboutus/about.html"
-                            style="text-decoration: none; color: white;">About us / Mission / Vision</a> </button>
-                </div>
-            </div>
+        <div class="toggle-collapse">
+          <div class="toggle-icons">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-  <div class="jumbotron jumbotron-fluid" style="margin-top: 5vh; ">
-        <div class="container">
-          <h1 class="display-4">Latest Updates 💡</h1><hr><br>
-          <p class="lead"> <b>Link the link for the DS + Algo online quiz →</b>&nbsp;<a href = "http://quiz.teamdowhile.com/" target="blank"><span class="badge badge-warning">click here</span></a></p>
-          <p class="lead">Checkout the new Blog on <b>Blockchain</b>&nbsp;<a href="./blog/blockchain.html"><span class="badge badge-warning">New</span></a></p>
-          <p class="lead">Checkout the new Blog on <b>Online Classes</b>&nbsp;<a href="./blog/onlineClasses.html"><span class="badge badge-warning">New</span></a></p>
-          <p class="lead">Checkout the <b>Mobile and Laptop Reviews</b> from the Navbar ⬆&nbsp;<a href = "./reviews/mobile.html"><span class="badge badge-warning">New</span></a></p>
-
-
+        <div>
+          <ul class="nav-items">
+            <li class="nav-link">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="../Aboutus/aboutUs.html">About us</a>
+            </li>
+            <li class="nav-link">
+              <a href="#blogSection">Blogs</a>
+            </li>
+            <li class="nav-link">
+              <a href="./reviews/all-reviews.html">Reviews</a>
+            </li>
+            <li class="nav-link">
+              <a href="#technews">Tech News</a>
+            </li>
+            <li class="nav-link">
+              <a href="../contactUs/contactUs.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social text-gray">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/c/teamdowhile"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
+    </nav>
 
-      <style>
-          .badge{
-           
-  background-color: red;
-  position: relative;
-  animation-name: example;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-          }
-          @keyframes example {
-  0%   {background-color:coral; }
-  25%  {background-color:yellow; }
-  50%  {background-color:orangered; }
-  75%  {background-color:lightgreen; }
-  100% {background-color:cornflowerblue; }
-}
-      </style>
-    <div class="container-fluid marketing">
-        <div class="album py-5 bg-light">
-            <div class="container">
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
-                <div class="row">
+    <!----------------------------- Main Site Section ------------------------------>
 
-                    <div class="col-md-12">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <h3 class="card-text">Web Development Text Editor</h3>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary"><a  href="codeeditor/editor.html" target="blank">View</a></button>
+    <main>
+      <!------------------------ Site Title ---------------------->
 
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./images/frontpageImages/bl.jpg" class="bd-placeholder-img card-img-top" width="100%"
-                                height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Blogs</h3>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                                href="./blog/blogMain.html">View</a></button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                 
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./images/frontpageImages/s.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Source Code</h3>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary"><a  href="https://drive.google.com/drive/folders/11eu4yV9zgWJx65UqjiyLvPyN4oDnrVs8?usp=sharing" target="blank">View</a></button>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./images/frontpageImages/k.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Tech News</h3>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                                href="./knowledgebooster/Knowledge.html">View</a></button>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-
-                    <div class="col-md-6">
-                        <div class="card mb-6 shadow-sm">
-                            <img src="/images/frontpageImages/mob.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Mobile Reviews</h3>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                                href="./reviews/mobile.html"> view</a></button>
-                                       
-                                            
-                                        </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card mb-6 shadow-sm">
-                            <img src="/images/frontpageImages/laptop.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Laptop Reviews</h3>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                                href="./reviews/laptop.html">view</a></button>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <section class="site-title">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+          <h1>Teamdowhile</h1>
+          <h3>Make it Possible with Tech!</h3>
+          <button class="btn">Explore</button>
         </div>
-    </div>
+      </section>
 
-    <!-- cloud Section -->
-    <div class="container-fluid marketing">
-        <h1 style="text-align: center;">Fundamentals of different cloud service providers</h1>
-        <div class="album py-5 bg-light">
-            <div class="container">
+      <!------------x----------- Site Title ----------x----------->
 
-                <div class="row">
+      <!-- --------------------- Blog Carousel ----------------- -->
 
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./images/frontpageImages/Google-Cloud-Logo.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Google Cloud</h3>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary"><a  href="https://cloud.google.com/docs/overview" target="blank">View</a></button>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./images/frontpageImages/aws.png" class="bd-placeholder-img card-img-top" width="100%"
-                                height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">AWS</h3>
-
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
-                                                href="https://aws.amazon.com/getting-started/">View</a></button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                 
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="./images/frontpageImages/azure.webp" class="bd-placeholder-img card-img-top" width="100%" height="225">
-
-                            <div class="card-body">
-                                <h3 class="card-text">Microsoft Azure</h3>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button"
-                                            class="btn btn-sm btn-outline-secondary"><a  href="https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/" target="blank">View</a></button>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <section id="blogSection">
+<h1 style="background-color: rgb(255, 94, 0); width: 25%;">Latest Blogs</h1>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div
+                class="blog-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <img
+                  src="./assets/images/blogImages/blockchain2.jpg"
+                  alt="post-1"
+                  height="250vw"
+                />
+                <div class="blog-title">
+                  <h3>Blockchain</h3>
+                  <button class="btn btn-blog"><a href="./blog/blockchain.html">Read More</a></button>
                 </div>
+              </div>
+              <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                <img
+                  src="./assets/images/blogImages/vr.jpg"
+                  alt="post-1"
+                  height="250vw"
+                />
+                <div class="blog-title">
+                  <h3>Virtual Reality</h3>
+                  <button class="btn btn-blog"><a href="./blog/virtual-reality.html">Read More</a></button>
+                  
+                </div>
+              </div>
+              <div
+                class="blog-content"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <img
+                  src="./assets/images/blogImages/online2.jpg"
+                  alt="post-1"
+                  height="250vw"
+                />
+                <div class="blog-title">
+                  <h3>Online Classes</h3>
+                  <button class="btn btn-blog"><a href="./blog/onlineClasses.html">Read More</a></button>
+                  
+                </div>
+              </div>
+              <div
+                class="blog-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <img
+                  src="./assets/images/blogImages/Ai.jpg"
+                  alt="post-1"
+                  height="250vw"
+                />
+                <div class="blog-title">
+                  <h3>Artificial Intelligence</h3>
+                  <button class="btn btn-blog"><a href="./blog/artificial-intelligence.html">Read More</a></button>
+                  
+                </div>
+              </div>
+              <div
+                class="blog-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <img
+                  src="https://i.gadgets360cdn.com/large/google_android_reuters_1557489952979.JPG"
+                  alt="post-1"
+                  height="250vw"
+                />
+                <div class="blog-title">
+                  <h3>Android studio</h3>
+                  <button class="btn btn-blog"><a href="./blog/blog.html">Read More</a></button>
+                  
+                </div>
+              </div>
             </div>
+            <div class="owl-navigation">
+              <span
+                class="owl-nav-prev"
+                style="background-color: white; border-radius: 50%"
+                ><i class="fas fa-long-arrow-alt-left"></i
+              ></span>
+              <span
+                class="owl-nav-next"
+                style="background-color: white; border-radius: 50%"
+                ><i class="fas fa-long-arrow-alt-right"></i
+              ></span>
+            </div>
+          </div>
         </div>
-    </div>
+      </section>
 
-    <!-- section Ends -->
-
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-lg-4 mt-5">
-                <img src="./images/frontpageImages/vipul.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140">
-                <h2>Vipul Sharma</h2>
-                <p>A web developer, programming and cloud computing enthusiast, pursuing Btech(Computer Science) at SRM
-                    University, Chennai. Like to indulge in learning technology
-                    and its advancement in leisure time. Interests include infrastructure and aviation.</p>
-                <p><a class="btn btn-primary" target="blank" href="https://www.linkedin.com/in/vipul-sharma-0a56aa18b"
-                        role="button"><i class="fab fa-linkedin"></i> Linkdien Profile-></a></p>
-            </div><!-- /.col-lg-4 -->
-           <div class="col-lg-4 mt-5">
-                <img src="./images/frontpageImages/paras.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
-                <h2>Paras Singh</h2>
-                <p>An Ardent developer from Galgotias college of engineering and technology pursuing B.tech (computer
-                    science) , Who always tries to indulge himself in
-                    new innovations and technology and In his mean time he loves to read
-                    book related to science and friction.
+      <!-- ----------x---------- Blog Carousel --------x-------- -->
+      <!-- ---------------------- Site Content -------------------------->
+<h1 style="background-color: rgb(255, 94, 0); width: 25%;">Tech News</h1>
+      <section class="container" id="technews">
+        <div class="site-content">
+          <div class="posts">
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="https://lagoscreativeenterpriseweek.org/plcew/wp-content/uploads/2019/08/google-apps.jpg"
+                    class="img"
+                    alt="blog1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="https://www.bbc.com/news/technology-55766429"
+                  >Google Threat to pull search engine in Australia</a
+                >
+                <p>
+                  Google has threatened to pull out of the Australian market if
+                  a new law governing its relationship with news publishers goes
+                  ahead.
                 </p>
-                <p><a class="btn btn-primary" target="blank" href="https://www.linkedin.com/in/paras-singh-3700111a2"
-                        role="button"><i class="fab fa-linkedin"></i> Linkdien Profile-></a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 mt-5">
-                <img src="./images/frontpageImages/kartikey1.jpg" class="bd-placeholder-img rounded-circle" width="160" height="150">
-                <h2>Kartikey Tyagi</h2>
-                <p>A passionate developer from KIET GROUP OF INSTITUTIONS pursuing B.tech (IT) ,
-                    who always tries to indulge himself in new technology and software.
-                    In his free time, either he reads some Novels or learns some other stuff.</p>
-                <p><a class="btn btn-primary" target="blank" href="https://www.linkedin.com/in/kartikey-tyagi-a1a450197"
-                        role="button"><i class="fab fa-linkedin"></i> Linkdien Profile-></a></p>
-            </div> 
-        </div>  
-    </div>
+                <button class="btn post-btn">
+                  <a href="https://www.bbc.com/news/technology-55766429"
+                    >Read More &nbsp; </a
+                  ><i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="https://www.androidpolice.com/wp-content/uploads/2020/07/03/jio-meet-hero.png"
+                    class="img"
+                    alt="blog1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                </div>
+              </div>
+              <div class="post-title">
+                <a
+                  href="https://www.timesnownews.com/technology-science/article/jiomeet-video-conferencing-platform-surpasses-15-million-users-in-india/710906"
+                  >JioMeet video conferencing platform surpasses 15 million
+                  users in India</a
+                >
+                <p>
+                  JioMeet by Reliance Jio offers enterprise-grade host control
+                  and security and can be used for 1:1 video calls
+                </p>
+                <button class="btn post-btn">
+                  <a
+                    href="https://www.timesnownews.com/technology-science/article/jiomeet-video-conferencing-platform-surpasses-15-million-users-in-india/710906"
+                    >Read More &nbsp; </a
+                  ><i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="https://articles-images.sftcdn.net/wp-content/uploads/sites/3/2019/11/Is-WhatsApp-safe.jpg"
+                    class="img"
+                    alt="blog1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                  <span
+                    ><i class="fas fa-calendar-alt text-gray"></i
+                    >
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="https://www.timesnownews.com/technology-science/article/whatsapp-pushes-back-date-to-accept-its-new-terms-to-may/707961"
+                  >WhatsApp pushes back date to accept its new terms to May 15</a
+                >
+                <p>
+                    WhatsApp has announced no user on the platform would have their account suspended 
+                    or deleted on February 8 and that it was pushing back the date of data-sharing change 
+                    after users globally raised concerns.
 
+                </p>
+                <button class="btn post-btn">
+                  <a href="https://www.timesnownews.com/technology-science/article/whatsapp-pushes-back-date-to-accept-its-new-terms-to-may/707961">Read More &nbsp; </a><i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="https://images.jansatta.com/2020/09/FAUG-Game-1.jpg"
+                    class="img"
+                    alt="blog1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                  <span
+                    ><i class="fas fa-calendar-alt text-gray"></i>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="https://www.timesnownews.com/technology-science/article/fau-g-launch-in-india-on-january-26-heres-everything-you-should-know/709625"
+                  >FAU-G launch in India on January 26: Here's everything you should know</a
+                >
+                <p>
+                    The teaser of the game has also shown that weapons - although a part of the game - 
+                    close combat and melee weapons will also be a big addition and will be a major aspect of 
+                    the game. 
 
-    <div class="container-fluid">
-        <div id="footerTest"></div>
+                </p>
+                <button class="btn post-btn">
+                  <a href="https://www.timesnownews.com/technology-science/article/fau-g-launch-in-india-on-january-26-heres-everything-you-should-know/709625">Read More &nbsp;</a> <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div>
+                <button class="btn post-btn post-content" style="margin-top: 5vw; margin-bottom: 5vw;">
+                    <a href="https://www.timesnownews.com/technology-science/article/fau-g-launch-in-india-on-january-26-heres-everything-you-should-know/709625">More Tech News &nbsp;</a> <i class="fas fa-arrow-right"></i>
+                  </button>
+            </div>
+            <!-- <div class="pagination flex-row">
+              <a href="#"><i class="fas fa-chevron-left"></i></a>
+              <a href="#" class="pages">1</a>
+              <a href="#" class="pages">2</a>
+              <a href="#" class="pages">3</a>
+              <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div> -->
+          </div>
+          <aside class="sidebar">
+            <div class="category">
+              <h2>👇🏻👇🏻👇🏻👇🏻👇🏻</h2>
+              <ul class="category-list">
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                >
+                  <a href="./blog/createblog.html">Submit a Blog</a>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <a href="#">Submit a Review</a>
+                </li>
+            
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                >
+                  <a href="#">want to hire?</a>
+                </li>
+                <li
+                class="list-items"
+                data-aos="fade-left"
+                data-aos-delay="500"
+              >
+                <a href="#">Want to work at Teamdowhile</a>
+              </li>
+              </ul>
+            </div>
+            <div class="popular-post">
+<h1 style="background-color: rgb(255, 208, 0); width: 100%;">Popular Reviews</h1>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/images/reviewImages/rog2.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="./reviews/rogstrix.html"
+                    >Rog Strix - View</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/images/reviewImages/zep2.jpeg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="./reviews/asuszphyrus.html"
+                    > Asus Zephyrus - View</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/images/reviewImages/oneplus2.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="./reviews/oneplus8.html"
+                    >Oneplus 8 - View</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/images/reviewImages/note1.jpeg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="./reviews/samsung-note-20.html"
+                    >Samsung note 20 - View</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/images/reviewImages/m31s stock.jfif"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="./reviews/M31s.html"
+                    >Samsung m31s - View</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+              <h2>Newsletter</h2>
+              <div class="form-element">
+                <input type="text" class="input-element" name="email" id="newsletter" placeholder="Email" />
+                <button class="btn form-btn" id="submitNewsletter">Subscribe</button>
+              </div>
+            </div>
+            <div class="popular-tags">
+              <h2>Popular Tags</h2>
+              <div class="tags flex-row">
+                <span class="tag" data-aos="flip-up" data-aos-delay="100"
+                  >Software</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="200"
+                  >technology</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="300"
+                  >tech news</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="400"
+                  >reviews</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="500"
+                  >Blogs</span
+                >
+            
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
 
-    </div>
+      <!-- -----------x---------- Site Content -------------x------------>
+    </main>
 
+    <!---------------x------------- Main Site Section ---------------x-------------->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="footer.js"></script>
+    <!-- --------------------------- Footer ---------------------------------------- -->
 
+    <footer class="footer">
+      <div class="container">
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>About us</h2>
+          <p>
+            Teamdowhile is a organisation working to provide technology updates
+            to you free and fast
+          </p>
+        </div>
+        <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+          <h2>Newsletter</h2>
+          <p>Stay update with our latest</p>
+          <div class="form-element">
+            <input type="text" id="newsletter" placeholder="Email" /><span
+              ><i id="submitNewsletter" class="fas fa-chevron-right"></i
+            ></span>
+          </div>
+        </div>
+        <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+          <h2>Instagram</h2>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card3.png" alt="insta1" />
+            <img src="./assets/instagram/thumb-card4.png" alt="insta2" />
+            <img src="./assets/instagram/thumb-card5.png" alt="insta3" />
+          </div>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card6.png" alt="insta4" />
+            <img src="./assets/instagram/thumb-card7.png" alt="insta5" />
+            <img src="./assets/instagram/thumb-card8.png" alt="insta6" />
+          </div>
+        </div>
+        <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>Follow us</h2>
+          <p>Let us be Social</p>
+          <div>
+            <a href="#"<i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="rights flex-row">
+       <h4>Copyright ©2020 All rights resereved || Teamdowhile || <a href="../privacypolicy/privacypolicy.html">Privacy Policy</a></h4>
 
-</body>
+      </div>
+      <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+      </div>
+    </footer>
 
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+
+    <script src="./mainApp.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyA-0yI5h9_hPjDf_-jKe7w3LSkP0He8Q00",
+    authDomain: "teamdowhile03.firebaseapp.com",
+    databaseURL: "https://teamdowhile03.firebaseio.com",
+    projectId: "teamdowhile03",
+    storageBucket: "teamdowhile03.appspot.com",
+    messagingSenderId: "600225555475",
+    appId: "1:600225555475:web:a1e5fe17f60e2db43c8be6",
+    measurementId: "G-193KGVRXQR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script>
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+</script>
+  </body>
 </html>

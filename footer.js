@@ -1,18 +1,40 @@
-let footerTest = document.getElementById("footerTest").innerHTML +=`
-<footer class="my-5 pt-5 text-muted text-center text-small">
-<ul class="list-inline">
-   <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
-   <li class="list-inline-item"><a href="https://www.facebook.com/dowhile03/"><i class="fab fa-facebook"></i></a></li>
-   <li class="list-inline-item"><a href="https://instagram.com/team_dowhile?igshid=1izr8lm3p0t91"><i class="fab fa-instagram"></i></a></li>
-   <li class="list-inline-item"><a href="https://www.facebook.com/groups/526828638013161/?ref=share"><i class="fas fa-user"></i></a></li>
-   <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCxkb8cH1azkPFkxxjCTZElA"><i class="fab fa-youtube"></i></a></li>
-   <li class="list-inline-item"><a href="https://www.twitter.com/dowhile03"><i class="fab fa-twitter"></i></a></li>
-
-    </ul>
-  <p class="mb-1"><a href="../privacypolicy/privacypolicy.html" style="text-decoration: none;">Privacy Poilcy</a></p>
-
-    <p class="mb-1">© 2020 Teamdowhile</p>
-        
-</footer>   `
-
-                      
+let footerTest = document.getElementById('footerTest').innerHTML = `
+<footer class="footer">
+  <div class="container">
+    <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+      <h2>About us</h2>
+      <p>
+        Teamdowhile is a organisation working to provide technology updates
+        to you free and fast
+      </p>
+    </div>
+    <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+      <h2>Newsletter</h2>
+      <p>Stay update with our latest</p>
+      <div class="form-element">
+        <input type="text" placeholder="Email" /><span
+          ><i class="fas fa-chevron-right"></i
+        ></span>
+      </div>
+    </div>
+    
+    <div class="follow" data-aos="fade-left" data-aos-delay="200">
+      <h2>Follow us</h2>
+      <p>Let us be Social</p>
+      <div>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/c/teamdowhile"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="rights flex-row">
+    <h4 class="text-gray">
+      Copyright ©2020 All rights resereved || Teamdowhile || <a href="../privacypolicy/privacypolicy.html">Privacy Policy</a></h4>
+    
+  </div>
+  <div class="move-up">
+    <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+  </div>
+</footer>`;

@@ -4,11 +4,7 @@
       
   }
   
-  #navtest{
-    top: 0;
-    position: sticky;
-    z-index: 1;
-  }
+  
   
 
   .navigation {
@@ -144,5 +140,23 @@
   
   .footer a {
     color: white;
+  }
+  
+  .imageBlog {
+    padding: 1em;
+    margin: auto;
+    display: block;
+  }
+   
+  ol {
+    list-style: none;
+    padding: 2em;
+  }
+  
+  li {
+    text-align: center;
+    font-size: 1.5emem;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
