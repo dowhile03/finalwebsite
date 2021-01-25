@@ -15,13 +15,13 @@ let navtest = document.getElementById("navtest").innerHTML +=`
         <a href="../index.html">Home</a>
       </li>
       <li class="nav-link">
-        <a href="../Aboutus/aboutUs.html">About us</a>
+        <a href="../aboutus/aboutus.html">About us</a>
       </li>
       <li class="nav-link">
       <a href="../reviews/all-reviews.html">Reviews</a>
       </li>
       <li class="nav-link">
-        <a href="../contactUs/contactUs.html">Contact Us</a>
+        <a href="../contactus/contactus.html">Contact Us</a>
       </li>
     </ul>
   </div>
