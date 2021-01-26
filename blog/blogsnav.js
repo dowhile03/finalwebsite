@@ -10,21 +10,27 @@ let navtest = document.getElementById("navtest").innerHTML +=`
     </div>
   </div>
   <div>
-    <ul class="nav-items">
+  <ul class="nav-items">
       <li class="nav-link">
-        <a href="../index.html">Home</a>
+          <a href="../index.html">Home</a>
       </li>
       <li class="nav-link">
-        <a href="../aboutus/aboutus.html">About us</a>
+          <a href="../aboutus/aboutus.html">About us</a>
       </li>
       <li class="nav-link">
-      <a href="../reviews/all-reviews.html">Reviews</a>
+          <a href="../index.html#blogsection">Blogs</a>
       </li>
       <li class="nav-link">
-        <a href="../contactus/contactus.html">Contact Us</a>
+        <a href="#">Tech news</a>
+    </li>
+      <li class="nav-link">
+          <a href="../reviews/all-reviews.html">Reviews</a>
       </li>
-    </ul>
-  </div>
+      <li class="nav-link">
+          <a href="../contactUs/contactus.html">Contact Us</a>
+      </li>
+  </ul>
+</div>
   <div class="social text-gray">
     <a href="#"><i class="fab fa-facebook-f"></i></a>
     <a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
