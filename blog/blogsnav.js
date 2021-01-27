@@ -15,28 +15,27 @@ let navtest = document.getElementById("navtest").innerHTML +=`
           <a href="../index.html">Home</a>
       </li>
       <li class="nav-link">
-          <a href="../aboutus/aboutus.html">About us</a>
+      <a href="../aboutus/aboutUs.html">About us</a>
       </li>
       <li class="nav-link">
           <a href="../index.html#blogsection">Blogs</a>
       </li>
       <li class="nav-link">
-        <a href="#">Tech news</a>
+      <a href="../techNews/technology-news.html">Tech News</a>
     </li>
       <li class="nav-link">
           <a href="../reviews/all-reviews.html">Reviews</a>
       </li>
       <li class="nav-link">
-          <a href="../contactUs/contactus.html">Contact Us</a>
+      <a href="../contactUs/contactUs.html">Contact Us</a>
       </li>
   </ul>
 </div>
-  <div class="social text-gray">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.youtube.com/c/teamdowhile"><i class="fab fa-youtube"></i></a>
-  </div>
+<div class="social text-gray">
+<a href="https://www.facebook.com/teamdowhile/"><i class="fab fa-facebook-f"></i></a>
+<a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
+<a href="https://twitter.com/dowhile03?s=08"><i class="fab fa-twitter"></i></a>
+<a href="https://www.youtube.com/c/teamdowhile"><i class="fab fa-youtube"></i></a>
 </div>
 </nav>
 `

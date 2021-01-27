@@ -22,8 +22,8 @@ let footerTest = document.getElementById('footerTest').innerHTML = `
       <h2>Follow us</h2>
       <p>Let us be Social</p>
       <div>
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/teamdowhile/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/dowhile03?s=08"><i class="fab fa-twitter"></i></a>
       <a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
       <a href="https://www.youtube.com/c/teamdowhile"><i class="fab fa-youtube"></i></a>
       </div>
