@@ -27,7 +27,7 @@ let navtest = document.getElementById("navtest").innerHTML +=`
           <a href="../reviews/all-reviews.html">Reviews</a>
       </li>
       <li class="nav-link">
-      <a href="../contactUs/contactUs.html">Contact Us</a>
+      <a href="../contactus/contactUs.html">Contact Us</a>
       </li>
   </ul>
 </div>
