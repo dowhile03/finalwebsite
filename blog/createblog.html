@@ -8,14 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" type="html/css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" type="html/css" rel="stylesheet">
     <script data-ad-client="ca-pub-3298465686149880" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="../css/all.css">
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="../css/Style.css">
 
     <title>Blogs</title>
  <link rel="icon" href="../assets/images/frontpageImages/LOGO.jpg" type="image/x-icon">
@@ -23,65 +31,48 @@
 
 </head>
 
-<body style="background-image: url(../assets/images/bg.png);">
-   
-    <style>
-        #navtest{
-       top: 0;
-       position: sticky;
-       z-index: 1;
-     }
-   </style>
-       
-     <div id="navtest">
-   
-   </div>
-
-
-    <form class="card" style="padding-left: 10vw; padding-right: 10vw;padding-top: 5vw; margin: 6rem;">
+<body >
+<div id="navtest"> </div>
+<div>
+  <form class="form-control">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email"  id="exampleFormControlInput1" placeholder="Enter Valid Email-Address" class="input-control">
+      </div>
+       <div class="form-group">
+        <label for="exampleFormControlTextarea1">Topic/Suggestions</label>
+        <textarea id="exampleFormControlTextarea1" rows="3"></textarea>
+       </div>
         <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email"  class="form-control" id="exampleFormControlInput1" placeholder="Enter Valid Email-Address">
-          </div>
-        
-          
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Topic/Suggestions</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            <progress value="0" max="100" id="uploader">0</progress> <br>
+          <label id="fileUpload" for="exampleFormControlFile1">Attach your file</label>
+          <input type="file" id="file" class="input-control1">
+        </div>
+     
 
-       
-      
-       
-            <div class="form-group">
-                <progress value="0" max="100" id="uploader">0</progress> <br>
-              <label id="fileUpload" for="exampleFormControlFile1">Attach your file</label>
-              <input type="file" class="form-control-file" id="file">
-            </div>
-         
-
-      <button class="btn btn-outline-danger" id="fileUploadBtn" style="margin: 5vw;" onclick="submitFile()" >Submit My Blog</button>
-<p id="note" ><b>NOTE :- You Must Login Before You Submit your blog To Teamdowhile</b></p>
-      </form>
+  <button id="fileUploadBtn" onclick="submitFile()" >Submit My Blog</button>
+  </form>
+</div>
 <div id="footerTest"></div>>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+<script src="../js/Jquery3.4.1.min.js"></script>
+
+<!-- --------- Owl-Carousel js ------------------->
+<script src="../js/owl.carousel.min.js"></script>
+
+<!-- ------------ AOS js Library  ------------------------- -->
+<script src="../js/aos.js"></script>
+
+<!-- Custom Javascript file -->
+<script src="../js/main.js"></script>
 
 <script>
+  
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
