@@ -6,7 +6,7 @@ html, body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-image: linear-gradient(to right top, #a5ff87, #afff7f, #baff76, #c5ff6e, #d0ff66);
+    background-color: rgba(248, 200, 207, 0.336);
 }
 
 :root{
@@ -19,7 +19,7 @@ html, body{
     --midnight: #104f55;
 
     /* gradient color   */
-    --sky:  linear-gradient(to right top, #ff8700, #ffa000, #ffb800, #ffd100, #ffe900);
+    --sky:  #ff6d99;
 
     /*      theme font-family   */
     --Abel: 'Abel', cursive;
@@ -178,6 +178,7 @@ main .site-title{
     height: 110vh;
     display: flex;
     justify-content: center;
+    opacity: 0.8;
 }
 
 main .site-title .site-background{
