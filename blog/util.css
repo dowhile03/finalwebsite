@@ -9,9 +9,14 @@
 .center{
   text-align: center
 }
-
+.listClass {
+  font-size: 1.2em;
+  color: darkslategray;
+  font:bold;
+}
 .font1 {
   font-family: var(--font1);
+  font-size: 1.2em;
 }
 .font2 {
   font-family: var(--font2);

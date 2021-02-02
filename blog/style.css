@@ -50,6 +50,8 @@ textarea {
   .form-control {
       padding: 8em;
   }
+
+ 
   @media (max-width: 768px) {
     .form-group {
       flex-direction: column;

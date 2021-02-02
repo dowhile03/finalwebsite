@@ -42,4 +42,21 @@ body {
      width: 100%;
      background-size: 65%;
  }
+
+ .container {
+  overflow: auto; 
+  padding: 10vw;
+ }
+
+ .thankyou_message {
+  display:none;
+ }
   
+ .adsbygoogle {
+  display:block; 
+  text-align:center;
+}
+
+.email-invalid {
+  display: none;
+}
