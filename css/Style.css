@@ -173,14 +173,17 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
+    background: linear-gradient(rgba(252, 250, 250, .8),rgba(1, 22, 22, 0.8)),url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
     background-size: cover;
     height: 110vh;
     display: flex;
     justify-content: center;
-    opacity: 0.8;
+    opacity: 1;
 }
+main .site-title::before {
 
+    
+}
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
