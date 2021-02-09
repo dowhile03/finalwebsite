@@ -53,11 +53,12 @@
       <div style="margin-bottom: 10rem; margin-top: 5em; text-align: center;">
         <button id="mobBtn" onclick="showMobile()" class="btn btn-primary">Mobile reviews</button>
         <button id="lapBtn" onclick="showLaptop()" class="btn btn-success">Laptop reviews</button>
+        <button id="lapBtn" onclick="showothergadgets()" class="btn btn-warning">Other gadgets reviews</button>
     
       </div>
     
     <div id="mobilediv" style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 10rem; padding: 3rem;">
-        <div class="card"  style="width: 18rem;flex: 25%;">
+     <div class="card"  style="width: 18rem;flex: 25%;">
             <img src="../assets/images/reviewImages/m31s stock.jfif" width="250vw" alt="...">
             <div class="card-body">
               <h5 class="card-title">M31s review</h5>
@@ -114,6 +115,18 @@
            
     </div>
 
+    <div id="othergadgets" style="display: flex; flex-wrap: wrap; margin-bottom: 10rem;padding: 5rem;">
+
+      <div class="card"  style="width: 18rem;flex: 25%;">
+        <img src="../assets/images/reviewImages/max1.jpg" width="250vw" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Apple Airpods Max Review</h5>
+          <a href="../reviews/apple-airpods-max.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+         
+  </div>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -130,16 +143,26 @@
     
     <script>
         document.getElementById("laptopdiv").style.display="none"
+        document.getElementById("othergadgets").style.display="none"
 
         function showLaptop() {
            document.getElementById("laptopdiv").style.display= "flex";
            document.getElementById("mobilediv").style.display= "none";
+        document.getElementById("othergadgets").style.display="none";
         }
 
         function showMobile() {
             document.getElementById("laptopdiv").style.display= "none";
            document.getElementById("mobilediv").style.display= "flex";
+        document.getElementById("othergadgets").style.display="none"
+          
+        }
 
+        function showothergadgets() {
+          document.getElementById("laptopdiv").style.display= "none";
+           document.getElementById("mobilediv").style.display= "none";
+        document.getElementById("othergadgets").style.display="flex"
+          
         }
 
     </script>
