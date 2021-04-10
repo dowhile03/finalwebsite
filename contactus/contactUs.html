@@ -79,18 +79,17 @@
     <script>
          (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-   <div class="container" id="backdesign">
-    <!-- https://script.google.com/macros/s/AKfycbwMuisz8tPaUsz-H48wd8fRuSy9mv_bNKnEDMaSaA/exec -->
-    <h2 class="content-head">Contact Us!</h2>
+   <div class="" id="backdesign">
+    <h2 class="content-head" style="text-align: center; background-color: rgb(255, 24, 186); padding: 1vw; width: 50%;">Come On! Let's Talk</h2>
         <div class="container">
               <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
             action="https://script.google.com/macros/s/AKfycbwMuisz8tPaUsz-H48wd8fRuSy9mv_bNKnEDMaSaA/exec">
             <!-- change the form action to your script url -->
-               <div class="form-elements">
+               <div class="form-elements" >
                 <div class="form-group">
                     <fieldset class="pure-group">
                         <label for="name">Name: </label>
-                        <input id="name" name="name" placeholder="What your Mom calls you" />
+                        <input id="name" name="name" placeholder="Name" />
                     </fieldset>
                 </div>
 
@@ -102,11 +101,11 @@
 
                 <fieldset class="pure-group">
                     <label for="email"><em>Your</em> Email Address:</label>
-                    <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+                    <input id="email" name="email" type="email" value="" required placeholder="Email" />
                     <span class="email-invalid">
                         Must be a valid email address</span>
                 </fieldset>
-                   <button class="btn btn-success">
+                   <button id="submit_btn" style="background-color: deeppink;" class="btn">
                     Send</button>
             </div>
 
@@ -189,9 +188,10 @@
     firebase.analytics();
     </script>
     <script>
-    const auth = firebase.auth();
     const db = firebase.firestore();
     </script>
+
+    <script src="../contactus/contactus-data.js"></script>
 </body>
 
 </html>
