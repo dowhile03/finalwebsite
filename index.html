@@ -28,6 +28,8 @@
 
     <nav class="nav">
       <div class="nav-menu flex-row">
+    <img src="./assets/images/frontpageImages/LOGO.jpg" width="5%" alt="">
+        
         <div class="nav-brand">
           <a href="#" class="text-gray">Teamdowhile</a>
         </div>
@@ -73,14 +75,34 @@
 
     <main>
       <!------------------------ Site Title ---------------------->
-
+     
       <section class="site-title">
         <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+          <span class="badge badge-warning">Live Event</span>
           <h1>TechLog-2021</h1>
           <h3>Technical Blog Writing Competition</h3>
           <button class="btn"><a href="events/TechLog-2021.html">Register</a></button>
         </div>
       </section>
+
+      <style>
+        .badge{
+         color: black;
+         font-weight: bolder;
+background-color: red;
+position: relative;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+        }
+        @keyframes example {
+0%   {background-color:coral; }
+25%  {background-color:yellow; }
+50%  {background-color:orangered; }
+75%  {background-color:lightgreen; }
+100% {background-color:cornflowerblue; }
+}
+    </style>
 
       <!------------x----------- Site Title ----------x----------->
 
@@ -91,6 +113,22 @@
         <div class="blog">
           <div class="container">
             <div class="owl-carousel owl-theme blog-post">
+              <div
+              class="blog-content"
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
+            <a href="./blog/NLP.html"><img
+                src="./assets/images/blogImages/nlp1.jpg"
+                alt="post-1"
+                height="250vw"
+              />
+              <div class="blog-title">
+                <h3>What exactly is NLP ?</h3>
+                <button class="btn btn-blog"><a href="./blog/NLP.html">Read More</a></button>
+                
+              </div>
+            </div>
               <div
                 class="blog-content"
                 data-aos="fade-left"
@@ -236,7 +274,7 @@
                 data-aos-delay="200"
               >
               <a href="./blog/artificial-intelligence.html"> <img
-                src="./blog/overclockingimg.jpeg"
+                src="./assets/images/blogImages/overclockingimg2.jpeg"
                 alt="post-1"
                 height="250vw"
               />
