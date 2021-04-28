@@ -2,7 +2,7 @@ let navtest = document.getElementById("navtest").innerHTML +=`
  <nav class="nav">
 <div class="nav-menu flex-row">
   <div class="nav-brand">
-    <a href="../index.html" class="text-gray">Teamdowhile</a>
+    <a href="/" class="text-gray">Teamdowhile</a>
   </div>
   <div class="toggle-collapse">
     <div class="toggle-icons">
@@ -12,7 +12,7 @@ let navtest = document.getElementById("navtest").innerHTML +=`
   <div>
   <ul class="nav-items">
       <li class="nav-link">
-          <a href="../index.html">Home</a>
+          <a href="/">Home</a>
       </li>
       <li class="nav-link">
       <a href="../aboutus/aboutUs.html">About us</a>
