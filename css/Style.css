@@ -1,5 +1,5 @@
 
-@import url('../css/fonts.css');
+
 
 
 html, body{
@@ -180,10 +180,7 @@ main .site-title{
     justify-content: center;
     opacity: 1;
 }
-main .site-title::before {
 
-    
-}
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
