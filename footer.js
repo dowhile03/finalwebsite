@@ -26,6 +26,8 @@ let footerTest = document.getElementById('footerTest').innerHTML = `
       <a href="https://twitter.com/dowhile03?s=08"><i class="fab fa-twitter"></i></a>
       <a href="https://instagram.com/team_dowhile?igshid=1gi03whtm3tap"><i class="fab fa-instagram"></i></a>
       <a href="https://www.youtube.com/c/teamdowhile"><i class="fab fa-youtube"></i></a>
+      <a href="https://discord.com/invite/qSKyC4c2"><i class="fab fa-discord"></i></a>
+      <a href="https://www.linkedin.com/company/teamdowhile"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
   </div>
